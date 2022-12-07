@@ -4,7 +4,7 @@
   text-align: center;
   background-color: #282c34;
   color: #ddd;
-  box-sizing: border-box;
+  box-sizing: border-box ;
 }
 
 .App-logo {
@@ -41,3 +41,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ======= Card =========== */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.card_wraper {
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+
+
+
+
+
