@@ -54,11 +54,28 @@
 .card_wraper {
   height: 400px;
   width: 300px;
+  padding: 1rem .5rem;
   background-color: #fff;
+  color: #333;
   border-radius: 5px;
 }
 
+.card_title {
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: serif;
+}
 
+.card_title span {
+  text-transform: uppercase;
+}
+
+.card_wraper p {
+  font-size: 14px;
+  padding: 0 10%;
+}
 
 
 
